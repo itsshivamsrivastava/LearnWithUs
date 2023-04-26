@@ -1,0 +1,87 @@
+.course-btn {
+    --tw-bg-opacity: 1;
+    background-color: rgb(126 34 206);
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 15rem;
+    height: 4rem;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+    border-color: rgb(75, 2, 138);
+}
+
+.course-btn:hover {
+    background-color: rgb(75, 2, 138);
+    border-color: rgb(75, 2, 138);
+}
+/* .aside-side{
+    width: 34rem;
+} */
+.heading-aside{
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    color: #7d2ae8;
+    margin-bottom: 2rem;
+}
+.courseSideBar{
+    text-align: justify;
+    color: #7d2ae8;
+    font-weight: 500;
+    padding: 3rem;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+    margin-bottom: 3rem;
+    /* border: #000000 1px solid; */
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
+    text-align: justify;
+}
+.side-bar-title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #000000;
+}
+.recommanded-card{
+    width: 32.5rem;
+    height: auto;
+    margin-top: -2rem;
+    margin-left: -5rem;
+    padding-top: 1.3rem;
+    background-color: #ffffff;
+    /* border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1); */
+}
+.course-title{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+.course-para{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+.course-container{
+    /* width: 111%; */
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -2.3rem;
+}
+.iframe-box{
+    /* width: 90rem; */
+    width: 85rem;
+    height: 450px;
+    height: 47rem;
+    margin-bottom: 2rem;
+    display: flex;
+    margin: auto;
+}

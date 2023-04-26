@@ -1,0 +1,22 @@
+.profile-box{
+    width: 114rem;
+    margin-top: 3rem;
+}
+.my-button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #5328c7;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.my-button:hover{
+    background-color: #ffffff;
+    color: #5328c7;
+    border: 1px solid #5328c7;
+}

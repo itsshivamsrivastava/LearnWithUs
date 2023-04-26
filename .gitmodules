@@ -1,0 +1,6 @@
+[submodule "back-end"]
+	path = back-end
+	url = D:\\Final year project\\LearnWithUs\\back-end
+[submodule "front-end"]
+	path = front-end
+	url = D:\\Final year project\\LearnWithUs\\front-end

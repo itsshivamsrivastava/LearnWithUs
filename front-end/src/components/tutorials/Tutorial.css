@@ -1,0 +1,16 @@
+.aside-side{
+    width: 34rem;
+    /* margin-left: -10rem; */
+}
+.heading-aside{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #7d2ae8;
+}
+.side-bar{
+    text-align: justify;
+    font-size: 1.6rem;
+    color: #7d2ae8;
+    font-weight: 500;
+}

@@ -1,0 +1,16 @@
+.course-table{
+    font-size: 1.3rem;
+}
+.heading{
+    color: #7d2ae8;
+    font-size: 3.8rem; 
+    text-align: center; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#desc, #content{
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: justify;
+}

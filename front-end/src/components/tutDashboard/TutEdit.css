@@ -1,0 +1,57 @@
+.forms label {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 3rem;
+    /* margin-bottom: 0.5rem; */
+
+}
+
+.forms input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 15px 0px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.forms input:focus {
+    border-bottom: 2px solid #7d2ae8;
+}
+
+.forms textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 15px 0px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.forms textarea:focus {
+    border-bottom: 2px solid #7d2ae8;
+}
+
+/* Drift text editor styling */
+.DraftEditor-root {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 200px;
+}
+
+.public-DraftEditorPlaceholder-root {
+    color: #999;
+}
+
+public-DraftEditor-content {
+    font-size: 16px;
+    line-height: 1.5;
+}

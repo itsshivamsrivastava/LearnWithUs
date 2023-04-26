@@ -1,0 +1,147 @@
+.hr-line1{
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+}
+.sub-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    color: #7d2ae8;
+    font-weight: 500;
+}
+.home-icon{
+    color: #7d2ae8;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+}
+.sub-navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.sub-navbar-links a{
+    text-decoration: none;
+    color: #7d2ae8;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+.home-container {
+    width: 134rem;
+    margin-top: -1.1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.my-header {
+    height: 37rem;
+    text-align: justify;
+    display: flex;
+}
+
+.my-header-left-side {
+    /* background-color: bisque; */
+    width: 50%;
+    padding-right: -5rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.left-side-header-container {
+    margin-left: 4rem;
+    /* width: 36rem; */
+}
+
+.typewriter p {
+    /* font-family: monospace; */
+    letter-spacing: .17em;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .17em solid pink;
+    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blinking-cursor {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: pink;
+    }
+}
+
+.header-para {
+    font-size: 1.7rem;
+    color: #6e6a6a;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    width: 55rem;
+}
+
+.home1-btn {
+    --tw-bg-opacity: 1;
+    background-color: rgb(45, 45, 46);
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 10rem;
+    height: 4rem;
+    margin-left: -1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.home1-btn:hover {
+    background-color: rgb(70, 70, 71);
+}
+.home2-btn{
+    --tw-bg-opacity: 1;
+    background-color: rgb(175, 177, 179);
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 10rem;
+    height: 4rem;
+    margin-left: -1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.home2-btn:hover{
+    background-color: rgb(132, 133, 134);
+    color: black;
+}
+
+/* Right Side Header */
+.my-header-right-side {
+    width: 50%;
+    clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);
+}
+
+.w-full {
+    margin-left: -2rem;
+}
